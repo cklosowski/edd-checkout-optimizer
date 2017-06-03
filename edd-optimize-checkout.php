@@ -26,14 +26,14 @@ if( ! class_exists( 'EDD_Optimize_Checkout' ) ) {
 	/**
 	 * Main EDD_Optimize_Checkout class
 	 *
-	 * @since       1.0.0
+	 * @since       1.0
 	 */
 	class EDD_Optimize_Checkout {
 
 
 		/**
 		 * @var         EDD_Optimize_Checkout $instance The one true EDD_Optimize_Checkout
-		 * @since       1.0.0
+		 * @since       1.0
 		 */
 		private static $instance;
 
@@ -44,7 +44,7 @@ if( ! class_exists( 'EDD_Optimize_Checkout' ) ) {
 		 * Get active instance
 		 *
 		 * @access      public
-		 * @since       1.0.1
+		 * @since       1.0
 		 * @return      object self::$instance The one true EDD_Optimize_Checkout
 		 */
 		public static function instance() {
@@ -64,7 +64,7 @@ if( ! class_exists( 'EDD_Optimize_Checkout' ) ) {
 		 * Setup plugin constants
 		 *
 		 * @access      private
-		 * @since       1.0.9
+		 * @since       1.0
 		 * @return      void
 		 */
 		private function setup_constants() {
@@ -83,7 +83,7 @@ if( ! class_exists( 'EDD_Optimize_Checkout' ) ) {
 		 * Include necessary files
 		 *
 		 * @access      private
-		 * @since       1.0.9
+		 * @since       1.0
 		 * @return      void
 		 */
 		private function includes() {
@@ -105,7 +105,7 @@ if( ! class_exists( 'EDD_Optimize_Checkout' ) ) {
 		 * Internationalization
 		 *
 		 * @access      public
-		 * @since       1.0.0
+		 * @since       1.0
 		 * @return      void
 		 */
 		public function load_textdomain() {
@@ -140,7 +140,7 @@ if( ! class_exists( 'EDD_Optimize_Checkout' ) ) {
  * The main function responsible for returning the one true EDD_Optimize_Checkout
  * instance to functions everywhere
  *
- * @since       1.0.0
+ * @since       1.0
  * @return      \EDD_Optimize_Checkout The one true EDD_Optimize_Checkout
  */
 function edd_optimize_checkout() {
